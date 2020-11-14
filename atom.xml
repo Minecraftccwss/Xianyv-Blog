@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>咸鱼Blog</title>
+  
+  <subtitle>点左下角的小箭头有惊喜</subtitle>
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2020-11-14T12:59:05.068Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>XYCode</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>安装WSL</title>
+    <link href="http://example.com/2020/11/14/%E5%AE%89%E8%A3%85WSL/"/>
+    <id>http://example.com/2020/11/14/%E5%AE%89%E8%A3%85WSL/</id>
+    <published>2020-11-14T12:02:27.000Z</published>
+    <updated>2020-11-14T12:59:05.068Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="WSL安装指南"><a href="#WSL安装指南" class="headerlink" title="WSL安装指南"></a>WSL安装指南</h1><h3 id="想要知道怎么安装WSL，首先要先知道WSL是什么"><a href="#想要知道怎么安装WSL，首先要先知道WSL是什么" class="headerlink" title="想要知道怎么安装WSL，首先要先知道WSL是什么"></a><strong>想要知道怎么安装WSL，首先要先知道WSL是什么</strong></h3><hr><h3 id="微软官方给出的说明是-“基于Windouws的Linux子系统”"><a href="#微软官方给出的说明是-“基于Windouws的Linux子系统”" class="headerlink" title="微软官方给出的说明是 “基于Windouws的Linux子系统”"></a>微软官方给出的说明是 “基于Windouws的Linux子系统”</h3><h3 id="说白了也就是-能在Windouws上运行的Linux系统"><a href="#说白了也就是-能在Windouws上运行的Linux系统" class="headerlink" title="说白了也就是 能在Windouws上运行的Linux系统"></a>说白了也就是 <strong><em>能在Windouws上运行的Linux系统</em></strong></h3><hr><h3 id="话说Windouws的终端也够丑的，没有颜色，新版的PowerShell虽然比较符合Linux用户的使用习惯，但是缺点太多了，比如："><a href="#话说Windouws的终端也够丑的，没有颜色，新版的PowerShell虽然比较符合Linux用户的使用习惯，但是缺点太多了，比如：" class="headerlink" title="话说Windouws的终端也够丑的，没有颜色，新版的PowerShell虽然比较符合Linux用户的使用习惯，但是缺点太多了，比如："></a>话说Windouws的终端也够丑的，没有颜色，新版的PowerShell虽然比较符合Linux用户的使用习惯，但是缺点太多了，比如：</h3><ol><li><h3 id="启动慢-机械硬盘用户非常有感触"><a href="#启动慢-机械硬盘用户非常有感触" class="headerlink" title="启动慢(机械硬盘用户非常有感触)"></a>启动慢(机械硬盘用户非常有感触)</h3></li><li><h3 id="报错太长了-生怕别人看不懂"><a href="#报错太长了-生怕别人看不懂" class="headerlink" title="报错太长了,生怕别人看不懂"></a>报错太长了,生怕别人看不懂</h3></li><li><h3 id="部分程序还会提示-因为在此系统上禁止运行脚本-所以无法执行"><a href="#部分程序还会提示-因为在此系统上禁止运行脚本-所以无法执行" class="headerlink" title="部分程序还会提示 因为在此系统上禁止运行脚本,所以无法执行"></a>部分程序还会提示 <strong><em>因为在此系统上禁止运行脚本,所以无法执行</em></strong></h3></li><li>…<br><img src="http://xianyv-code.xyz/Install-WSL-Powershell.png"></li></ol><hr><h3 id="所以你现在知道为什么有这么多人不喜欢Widouws的终端了吧"><a href="#所以你现在知道为什么有这么多人不喜欢Widouws的终端了吧" class="headerlink" title="所以你现在知道为什么有这么多人不喜欢Widouws的终端了吧"></a>所以你现在知道为什么有这么多人不喜欢Widouws的终端了吧</h3><hr><h2 id="讲了这么多-也应该教你们怎么安装了"><a href="#讲了这么多-也应该教你们怎么安装了" class="headerlink" title="讲了这么多,也应该教你们怎么安装了"></a>讲了这么多,也应该教你们怎么安装了</h2><br><h3 id="打开设置-搜索-“启用或关闭-Windows-功能”"><a href="#打开设置-搜索-“启用或关闭-Windows-功能”" class="headerlink" title="打开设置,搜索 “启用或关闭 Windows 功能”"></a>打开设置,搜索 “启用或关闭 Windows 功能”</h3><h3 id="找到”使用于Linux的Windouws子系统”"><a href="#找到”使用于Linux的Windouws子系统”" class="headerlink" title="找到”使用于Linux的Windouws子系统”"></a>找到”使用于Linux的Windouws子系统”</h3><p><img src="http://xianyv-code.xyz/Install-WSL-On-Windouws.png"></p><h3 id="安装完成之后重启电脑，打开-Microsoft-Store，搜索你要的分发版，安装"><a href="#安装完成之后重启电脑，打开-Microsoft-Store，搜索你要的分发版，安装" class="headerlink" title="安装完成之后重启电脑，打开 Microsoft Store，搜索你要的分发版，安装"></a>安装完成之后重启电脑，打开 Microsoft Store，搜索你要的分发版，安装</h3><h3 id="然后在开始菜单里找到它并运行，就会有半分钟（SATA固态测试）左右的安装（注册）时间"><a href="#然后在开始菜单里找到它并运行，就会有半分钟（SATA固态测试）左右的安装（注册）时间" class="headerlink" title="然后在开始菜单里找到它并运行，就会有半分钟（SATA固态测试）左右的安装（注册）时间"></a>然后在开始菜单里找到它并运行，就会有半分钟（SATA固态测试）左右的安装（注册）时间</h3><hr><h2 id="完了"><a href="#完了" class="headerlink" title="完了"></a>完了</h2><h2 id="观众：这就完了？"><a href="#观众：这就完了？" class="headerlink" title="观众：这就完了？"></a>观众：这就完了？</h2><h2 id="是的"><a href="#是的" class="headerlink" title="是的"></a>是的</h2>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;WSL安装指南&quot;&gt;&lt;a href=&quot;#WSL安装指南&quot; class=&quot;headerlink&quot; title=&quot;WSL安装指南&quot;&gt;&lt;/a&gt;WSL安装指南&lt;/h1&gt;&lt;h3 id=&quot;想要知道怎么安装WSL，首先要先知道WSL是什么&quot;&gt;&lt;a href=&quot;#想要知道怎么安装W</summary>
+      
+    
+    
+    
+    
+    <category term="Windouws" scheme="http://example.com/tags/Windouws/"/>
+    
+  </entry>
+  
+</feed>
